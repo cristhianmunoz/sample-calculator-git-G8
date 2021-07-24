@@ -10,5 +10,9 @@ public class CalculatorExecute {
 
         int subtraction= c.subtraccion(8,6);
         System.out.println("c.subtraccion(8,6)"+subtraction);
+
+        System.out.println("Ultimo cambio");
+        subtraction= c.subtraccion(15,2);
+        System.out.println("c.subtraccion(15,2)"+subtraction);
     }
 }
